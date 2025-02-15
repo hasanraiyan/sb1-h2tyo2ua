@@ -23,7 +23,6 @@ export default function TabLayout() {
   return (
     <Drawer
       drawerContent={(props) => <CustomDrawerContent {...props} />}
-      }
       screenOptions={{
         drawerActiveBackgroundColor: '#FF6B6B',
         drawerActiveTintColor: '#fff',
